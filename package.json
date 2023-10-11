@@ -6,6 +6,8 @@
         "lint": "next lint",
         "dev": "node server.js",
         "build": "next build",
+        "deploy": "gh-pages -d build",
+        "predeploy": "npm run build",
         "postbuild": "next-sitemap",
         "start": "next start"
     },
