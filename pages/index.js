@@ -12,7 +12,6 @@ import Service from "../component/HomePage/Service";
 import { HomeFaqData } from "/Data/FaqData/FaqData";
 import Slider from "../component/HomePage/Slider";
 import SaveTime from "../component/Section/SaveTime";
-import Script from "next/script";
 function Home() {
   let schema = {
     "@context": "https://schema.org",
@@ -86,7 +85,7 @@ function Home() {
           content="Nft minting website development NFT Website Design NFT marketplace development"
         ></meta>
         <link rel="icon" type="image" href="/favicon.png"></link>
-        <Script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
