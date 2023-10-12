@@ -8,7 +8,7 @@ import PortfolioSection from "../../component/PorfolioPage/PortfolioSection";
 import SaveTime from "../../component/Section/SaveTime";
 import CompanyLogo from "../../component/Section/CompanyLogo";
 import TechStacks from "../../component/Section/TechStacks";
-function Portfolio() {
+function CaseStudyPage() {
   return (
     <>
       <Head>
@@ -77,6 +77,6 @@ function Portfolio() {
   );
 }
 
-Portfolio.layout = AppLayout;
+CaseStudyPage.layout = AppLayout;
 
-export default Portfolio;
+export default CaseStudyPage;

@@ -85,7 +85,7 @@ const data = [
     id:3,
     title: " Metaverse Development",
     image: "/assets/img/icon/crypto.png",
-    link: "/metaverse",
+    link: "/metaverse-development",
     des: ` Create excellent, beneficial VR experiences in the
     metaverse as your business's next bold move towards
     success. By developing dynamically changing worlds,
@@ -119,7 +119,7 @@ const data = [
     id:6,
     title: " Smart Contract Development",
     image: "/assets/img/icon/identity.png",
-    link: "/smart-contract",
+    link: "/smart-contract-development",
     des: `    We create blockchain-agnostic smart contracts for your
     business that meets all the security standards, including
     consultancy, development, testing, and deployment of smart

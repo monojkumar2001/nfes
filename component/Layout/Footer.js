@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import axios from "axios";
-import Styles from '../../styles/section/Footer.module.css'
+import Styles from "../../styles/section/Footer.module.css";
 
 function Footer() {
   const [posts, setPosts] = useState([]);
@@ -11,14 +11,15 @@ function Footer() {
   const [youtube, setYoutube] = useState([]);
 
   useEffect(() => {
-    axios.get('https://api.nftconstructer.com/api/social')
-    // axios.get('http://127.0.0.1:8000/api/social')
-    .then((res)=> {
-      setFacebook(res.data.data.find(res => res.slug == 'facebook'))
-      setTwitter(res.data.data.find(res => res.slug == 'twitter'))
-      setLinkedin(res.data.data.find(res => res.slug == 'linkedin'))
-      setYoutube(res.data.data.find(res => res.slug == 'youtube'))
-    });
+    axios
+      .get("https://api.nftconstructer.com/api/social")
+      // axios.get('http://127.0.0.1:8000/api/social')
+      .then((res) => {
+        setFacebook(res.data.data.find((res) => res.slug == "facebook"));
+        setTwitter(res.data.data.find((res) => res.slug == "twitter"));
+        setLinkedin(res.data.data.find((res) => res.slug == "linkedin"));
+        setYoutube(res.data.data.find((res) => res.slug == "youtube"));
+      });
   }, []);
 
   const [sticky, setStickys] = useState(false);
@@ -52,64 +53,38 @@ function Footer() {
             <div className={Styles.footer_list}>
               <h3 className={Styles.footer_item_title}>NAVIGATE</h3>
               <div className={Styles.footer_item_List}>
-                <Link href={"/"}>
-                 Home
-                </Link>
-                <Link href={"/about"}>
-                  About Us
-                </Link>
-                <Link href={"/blog"}>
-                 Blog
-                </Link>
-                <Link href={"/contact"}>
-                  Contact Us
-                </Link>
-                <Link href={"/portfolio"}>
-                  Our works
-                </Link>
+                <Link href={"/"}>Home</Link>
+                <Link href={"/about"}>About Us</Link>
+                <Link href={"/blog"}>Blog</Link>
+                <Link href={"/contact"}>Contact Us</Link>
+                <Link href={"/case-study"}>Case Study</Link>
               </div>
             </div>
             <div className={Styles.footer_list}>
               <h3 className={Styles.footer_item_title}>Services</h3>
               <div className={Styles.footer_item_List}>
                 <Link href={"/nft-website-development"}>
-                NFT Development 
+                  NFT Website Development
                 </Link>
-                <Link href={"/defi-development"}>
-                DeFi Development
+                <Link href={"/defi-development"}>DeFi Development</Link>
+                <Link href={"/metaverse-development"}>
+                  Metaverse Development
                 </Link>
-                <Link href={"/metaverse"}>
-                Metaverse Development
-                </Link>
-                <Link href={"/marketing"}>
-                Marketing
-                </Link>
-                <Link href={"/website-design"}>
-                Website Design
-                </Link>
-                <Link href={"/smart-contract"}>
-                Smart Contact Development
+                <Link href={"/marketing"}>Marketing</Link>
+                <Link href={"/website-design"}>Website Design</Link>
+                <Link href={"/smart-contract-development"}>
+                  Smart Contact Development
                 </Link>
               </div>
             </div>
             <div className={Styles.footer_list}>
               <h3 className={Styles.footer_item_title}>Marketing Talent</h3>
               <div className={Styles.footer_item_List}>
-                <Link href={"/privacy-policy"}>
-                 Privacy Policy
-                </Link>
-                <Link href={"/cookies-policy"}>
-                  Cookies Policy
-                </Link>
-                <Link href={"/refund-policy"}>
-                  Refund Policy
-                </Link>
-                <Link href={"/contact"}>
-               Customer Support
-                </Link>
-                <Link href={"/terms"}>
-                 Terms & Conditions
-                </Link>
+                <Link href={"/privacy-policy"}>Privacy Policy</Link>
+                <Link href={"/cookies-policy"}>Cookies Policy</Link>
+                <Link href={"/refund-policy"}>Refund Policy</Link>
+                <Link href={"/contact"}>Customer Support</Link>
+                <Link href={"/terms"}>Terms & Conditions</Link>
               </div>
             </div>
 
@@ -120,10 +95,13 @@ function Footer() {
                   href="https://www.facebook.com/nftconstructer"
                   target={"_blank"}
                 >
-                 Facebook
+                  Facebook
                 </Link>
-                <Link href="https://twitter.com/NftConstructer" target={"_blank"}>
-                 Twitter
+                <Link
+                  href="https://twitter.com/NftConstructer"
+                  target={"_blank"}
+                >
+                  Twitter
                 </Link>
                 <Link
                   href="https://instargam.com/NftConstructer"
@@ -132,10 +110,13 @@ function Footer() {
                   Instagram
                 </Link>
                 <Link href="https://discord.gg/2HEujEtWnE" target={"_blank"}>
-                 Discord
+                  Discord
                 </Link>
-                <Link href="https://Linkedin.com/NftConstructer" target={"_blank"}>
-                Linkedin
+                <Link
+                  href="https://Linkedin.com/NftConstructer"
+                  target={"_blank"}
+                >
+                  Linkedin
                 </Link>
               </div>
             </div>
@@ -156,7 +137,10 @@ function Footer() {
                 <div className={Styles.right_footer_social}>
                   <div className={Styles.last_footer_content}>
                     <div className={Styles.footer_links}>
-                      <Link href='https://www.facebook.com/nftconstructer' target="_blank">
+                      <Link
+                        href="https://www.facebook.com/nftconstructer"
+                        target="_blank"
+                      >
                         <div>
                           <svg
                             width="8"
@@ -172,7 +156,10 @@ function Footer() {
                           </svg>
                         </div>
                       </Link>
-                      <Link href="https://twitter.com/NftConstructer" target={"_blank"}>
+                      <Link
+                        href="https://twitter.com/NftConstructer"
+                        target={"_blank"}
+                      >
                         <div>
                           <svg
                             width="13"
@@ -188,7 +175,10 @@ function Footer() {
                           </svg>
                         </div>
                       </Link>
-                      <Link  href="https://Linkedin.com/NftConstructer" target={"_blank"}>
+                      <Link
+                        href="https://Linkedin.com/NftConstructer"
+                        target={"_blank"}
+                      >
                         <div>
                           <svg
                             width="12"
@@ -204,7 +194,7 @@ function Footer() {
                           </svg>
                         </div>
                       </Link>
-                      <Link href={'/'}>
+                      <Link href={"/"}>
                         <div>
                           <svg
                             width="15"

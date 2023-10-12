@@ -207,17 +207,17 @@ export const ProgrammingLanguagesData=[
 export const CloudPlatformsData=[
     {
         id:1,
-        img:`/assets/img/icon/aws.png`,
+        img:`/assets/img/icon/aws.svg`,
         title:"aws"
     },
     {
         id:2,
-        img:`/assets/img/icon/ibm.png`,
+        img:`/assets/img/icon/ibm.svg`,
         title:"IBM BLUEMIX"
     },
     {
         id:3,
-        img:`/assets/img/icon/rass.png`,
+        img:`/assets/img/icon/rass.svg`,
         title:"Eth rass"
     },
     {

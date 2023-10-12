@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import Typed from "react-typed";
+import Typed from "react-typed";
 import Image from "next/image";
 import Link from "next/link";
 import Styles from '../../styles/pages/PorfolioPage/HeroSection.module.css'
@@ -27,7 +27,7 @@ const HeroSection = () => {
               <h1>
               Here are some of our  Recent <br />
                 <span>
-                {/* <Typed
+                <Typed
                   strings={[
                     `PROJECTS`
                   ]}
@@ -35,7 +35,7 @@ const HeroSection = () => {
                   backSpeed={150}
                   loop
                 >
-                </Typed> */}
+                </Typed>
                 </span>
               </h1>
               <p>
@@ -49,13 +49,26 @@ const HeroSection = () => {
               </div>
             </div>
             <div className={Styles.portfolio_right}>
-              <Image
-                width={631}
-                height={515}
+            <div className={Styles.portfolio_imgs}>
+               <Image
+                width={505}
+                height={322}
                 loading="lazy"
                 src={imageUrls[currentIndex]}
                 alt={'portfolio'}
               />
+           </div>
+           <div className={Styles.portfolio_right_motior}>
+        
+           <Image
+                width={631}
+                height={515}
+                loading="lazy"
+                src={'/assets/images/portfolio/monitor-img-1.svg'}
+                alt={'portfolio'}
+              />
+           </div>
+
             </div>
           </div>
         </div>

@@ -250,7 +250,7 @@ function Contract() {
                   </div>
                 </div>
   
-                <div className="form-group " style={{marginBottom: '30px'}}>
+                <div className="form-group " style={{marginBottom: '20px'}}>
                   <div className="input-group">
                     <label className={Styles.input_label} htmlFor="message">Consult :</label>
                     <div className={Styles.input_label}>
@@ -261,7 +261,7 @@ function Contract() {
                         name="message"
                         className={Styles.form_control}
                         cols="30"
-                        rows="10"
+                        rows="7"
                       ></textarea>
                     </div>
                     <small style={{ color:'red' }}>{inputField.error_log.message}</small>

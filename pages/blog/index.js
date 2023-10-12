@@ -127,11 +127,7 @@ function Blog() {
                     />
                   </div>
                   <div className={styles.about_blog}>
-                    {/* <Link href={post.slug}>
-                      <a className="urbanist-black-18">
-                        {post.title.substring(0, 40)}
-                      </a>
-                    </Link> */}
+                    <button>ANNOUNCEMENTS</button>
                     <Link href={`/blog/${post.slug}`}>
                       <a className={styles.urbanist_black_18}>{post.title}</a>
                     </Link>

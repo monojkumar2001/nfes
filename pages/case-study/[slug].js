@@ -18,7 +18,7 @@ import PortfolioAbout from "../../component/PorfolioPage/PortfolioAbout";
 import TechStacks from "../../component/Section/TechStacks";
 
 
-export default function PortfolioDetails({ slug }) {
+export default function CaseStudyPageDetails({ slug }) {
   const [scroll, setScroll] = useState(0);
   const router = useRouter();
 
@@ -80,5 +80,5 @@ export default function PortfolioDetails({ slug }) {
   );
 }
 
-PortfolioDetails.layout = AppLayout;
+CaseStudyPageDetails.layout = AppLayout;
 

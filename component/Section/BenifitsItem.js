@@ -23,7 +23,7 @@ const BenifitsItem = ({ data, title ,alt,description}) => {
                   <Image
                     height={702}
                     width={480}
-                    src="/assets/imgs/center-nft.png"
+                    src="/assets/imgs/center-nft.svg"
                     alt={alt}
                   />
                 </div>

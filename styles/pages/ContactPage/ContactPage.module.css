@@ -70,7 +70,6 @@
   .input_label {
     color: var(--main-color);
     font-weight: 600;
-    margin: 15px 0;
     display: block;
   }
   .input_box {
@@ -99,9 +98,8 @@
   /* ===================custom button============ */
 
 .custom_btn {
-    width: 150px;
-    height: 60px;
-    border-radius: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
     border: none;
     outline: none;
     background: var(--main-color);
@@ -114,26 +112,6 @@
     color: var(--white-color);
     background: var(--second-color);
 }
-
-.custom_btn:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%) scale(0);
-    width: 1px;
-    height: 1px;
-    background: var(--white-color);
-    opacity: 0;
-    border-radius: 50%;
-    transition: 0.5s ease-in-out;
-}
-
-.custom_btn:hover:before {
-    transform: translate(-50%) scale(310);
-    opacity: 1;
-}
-
 
   
   @media screen and (max-width: 992px) {

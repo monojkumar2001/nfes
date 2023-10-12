@@ -21,7 +21,7 @@ export default function DiscreteSlider({ valuetext }) {
           <div className={`section-title ${styles.price_range_width}`}      data-aos="fade-up"
                   data-aos-duration="1000">
             <h2 className="sec-title">
-              Customize <span>pricing</span> and quafsdasdfotation methods.
+              Customize <span>pricing</span> and quotation methods.
             </h2>
 
             <p className="sec-des">

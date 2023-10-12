@@ -58,7 +58,16 @@
     justify-content: center;
    
   }
-  .portfolio_right img {
+  .portfolio_imgs{
+    position: absolute;
+    z-index: 1;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+  .portfolio_imgs span img{
+    width: 100%;
+  }
+  .portfolio_right_motior img {
     width: 100%;
   }
 
@@ -90,6 +99,9 @@
       font-size: 40px;
   }
     .portfolio_right .portfolio_blur{
+    display: none;
+    }
+    .portfolio_imgs{
     display: none;
     }
   }

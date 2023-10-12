@@ -5,7 +5,7 @@ import { Navigation, A11y, EffectCoverflow } from "swiper";
 import Image from "next/image";
 import styles from "../../styles/pages/HomePage/Review.module.css";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-function Review({alt}) {
+function Review({ alt }) {
   return (
     <>
       <section className={styles.section_wrap}>
@@ -14,12 +14,12 @@ function Review({alt}) {
             <h2 className="sec-title">
               Hear from our <span>clients</span>
             </h2>
-
             <p className="sec-des">
-              As a leading custom blockchain, nft, defi, and metaverse
-              development, design, and consulting firm, our development and
-              design services facilitate the tokenization of digital assets for
-              collection and business growth.
+              At the forefront of innovation in custom blockchain solutions, NFT
+              craftsmanship, DeFi wizardry, and metaverse mastery, we sculpt the
+              digital landscape. Our expertise, whether through crafting,
+              consulting, or creating, transforms your digital assets into
+              tokens that bridge the realms of artistry and prosperity.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ function Review({alt}) {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-         <Swiper
+            <Swiper
               modules={[Navigation, A11y, EffectCoverflow]}
               spaceBetween={50}
               // slidesPerView={3}
@@ -65,8 +65,8 @@ function Review({alt}) {
             >
               {slideItem.map((item, i) => {
                 return (
-                  <SwiperSlide key={i} >
-                    <div className={styles.client_review_slider} >
+                  <SwiperSlide key={i}>
+                    <div className={styles.client_review_slider}>
                       <div className={styles.review_icon}>
                         <Image
                           width={55}
@@ -100,7 +100,7 @@ function Review({alt}) {
                 );
               })}
             </Swiper>
-           
+
             <div className={`${styles.slider_navAll} slider_nav`}>
               <div className="prev">
                 <span>
@@ -125,81 +125,58 @@ export default Review;
 
 const slideItem = [
   {
-    id:1,
+    id: 1,
     icon: "/assets/images/review/review-icon.svg",
     userImg: "/assets/images/review/user-img-1.png",
-    title: "95x Growth",
-    des: `"Alchemy’s comprehensive developer platform -
-    from infrastructure and tooling to enhanced
-    APIs and monitoring systems - is best in class."`,
-    userName: "Sandeep Nailwal",
-    profession: "Co-Founder",
+    title: "NFT DEVELOPMENT",
+    des: `Your team's blockchain expertise is top-notch! They transformed my NFT idea into reality, and now I have a thriving digital art collection. Your services have been a game-changer.`,
+    userName: "John H.",
+    profession: "Blockchain Enthusiast",
   },
   {
-    id:2,
+    id: 2,
     icon: "/assets/images/review/review-icon.svg",
     userImg: "/assets/images/review/user-img-3.png",
-    title: "$170B+ trading volume",
-    des: `"Alchemy's technology and team are best in
-    class. The team wins with response times,
-    reliability and accurate data."`,
-    userName: "Charles Reese",
-    profession: "Engineering Manager",
+    title: "10XGroth",
+    des: `I couldn't have navigated the DeFi space without your guidance. Your consulting services helped me make informed decisions and yielded great returns. You've earned my trust.`,
+    userName: "Samantha R.",
+    profession: "DeFi Investor",
   },
   {
-    id:3,
+    id: 3,
     icon: "/assets/images/review/review-icon.svg",
     userImg: "/assets/images/review/user-img-2.png",
-    title: "1K+ NFTs Sold in <2 Mins",
-    des: `"Not only does Alchemy ensure 0% rate limiting
-    for our NFT drops, but their infra handles the
-    load seamlessly."`,
-    userName: "Kyle Gusdorf",
-    profession: "Software Engineer",
+    title: "WEB3",
+    des: `The metaverse is the future, and your design work is taking me there. Your team brought my virtual world to life, making my dreams a digital reality. Thank you!`,
+    userName: "Mark S.",
+    profession: "Metaverse Innovator",
   },
 
   {
-    id:4,
+    id: 4,
     icon: "/assets/images/review/review-icon.svg",
-    userImg: "/assets/images/review/user-img-1.png",
-    title: "$170B+ trading volume",
-    des: `"Alchemy's technology and team are best in
-    class. The team wins with response times,
-    reliability and accurate data."`,
-    userName: "Charles Reese",
-    profession: "Engineering Manager",
+    userImg: "/assets/images/review/user-img-4.png",
+    title: "BEST MARKETING",
+    des: `As an NFT artist, I needed a platform to showcase my work. Your custom NFT development services made it easy. My art is now tokenized, and I'm gaining recognition.`,
+    userName: "Alicia G.",
+    profession: "NFT Creator",
   },
   {
-    id:5,
+    id: 5,
     icon: "/assets/images/review/review-icon.svg",
-    userImg: "/assets/images/review/user-img-1.png",
-    title: "$170B+ trading volume",
-    des: `"Alchemy's technology and team are best in
-    class. The team wins with response times,
-    reliability and accurate data."`,
-    userName: "Charles Reese",
-    profession: "Engineering Manager",
+    userImg: "/assets/images/review/user-img-5.png",
+    title: "METAVERSE DEVELOPMENT",
+    des: `Your team unlocked the potential of blockchain technology for my business. Our digital assets are now tokenized, opening up new revenue streams. It's been a great partnership.`,
+    userName: "Michael P.",
+    profession: "Business Owner",
   },
   {
-    id:6,
+    id: 6,
     icon: "/assets/images/review/review-icon.svg",
-    userImg: "/assets/images/review/user-img-1.png",
-    title: "$170B+ trading volume",
-    des: `"Alchemy's technology and team are best in
-    class. The team wins with response times,
-    reliability and accurate data."`,
-    userName: "Charles Reese",
-    profession: "Engineering Manager",
-  },
-  {
-    id:7,
-    icon: "/assets/images/review/review-icon.svg",
-    userImg: "/assets/images/review/user-img-1.png",
-    title: "$170B+ trading volume",
-    des: `"Alchemy's technology and team are best in
-    class. The team wins with response times,
-    reliability and accurate data."`,
-    userName: "Charles Reese",
-    profession: "Engineering Manager",
+    userImg: "/assets/images/review/user-img-6.png",
+    title: "WEBSITE DESIGN",
+    des: `Your design services are a class apart. You've given my NFTs and metaverse projects an aesthetic edge. It's the attention to detail that sets you apart. Bravo!`,
+    userName: "Emily C.",
+    profession: "Design Aficionado",
   },
 ];

@@ -13,44 +13,7 @@ import { HomeFaqData } from "/Data/FaqData/FaqData";
 import Slider from "../component/HomePage/Slider";
 import SaveTime from "../component/Section/SaveTime";
 function Home() {
-  let schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is an NFT?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "An NFT, or non-fungible token, is a digital asset that represents ownership or proof of the authenticity of a unique item, often using blockchain technology.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do I create an NFT and sell it?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "To create and sell an NFT, follow these steps: Choose a blockchain platform, set up a compatible wallet, prepare your digital asset, mint the NFT with metadata and royalties, list it on an NFT marketplace, promote it, and complete the sale. After the sale, you can transfer your earnings to your bank account or reinvest.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Which are best websites to sell  NFT?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The best websites to sell NFTs often depend on your specific needs and the type of digital assets you're selling. However, some popular and trusted NFT marketplaces include OpenSea, Rarible, and SuperRare for art and collectibles, NBA Top Shot for sports-related NFTs, and Mintable for customizable NFTs.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What exactly is NFT development?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "People often want to know what NFT development entails and what it means to create and work with non-fungible tokens.",
-        },
-      },
-    ],
-  };
+  
   return (
     <>
       <Head>
@@ -85,10 +48,45 @@ function Home() {
           content="Nft minting website development NFT Website Design NFT marketplace development"
         ></meta>
         <link rel="icon" type="image" href="/favicon.png"></link>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
+{/*         
+        <Script strategy="lazyOnload" type="application/ld+json">
+        {`
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is an NFT?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An NFT, or non-fungible token, is a digital asset that represents ownership or proof of the authenticity of a unique item, often using blockchain technology."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I create an NFT and sell it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To create and sell an NFT, follow these steps: Choose a blockchain platform, set up a compatible wallet, prepare your digital asset, mint the NFT with metadata and royalties, list it on an NFT marketplace, promote it, and complete the sale. After the sale, you can transfer your earnings to your bank account or reinvest."
+        }
+      },{
+        "@type": "Question",
+        "name": "Which are the best websites to sell NFT?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best websites to sell NFTs often depend on your specific needs and the type of digital assets you're selling. However, some popular and trusted NFT marketplaces include OpenSea, Rarible, and SuperRare for art and collectibles, NBA Top Shot for sports-related NFTs, and Mintable for customizable NFTs."
+        }
+      },{
+        "@type": "Question",
+        "name": "What exactly is NFT development?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "People often want to know what NFT development entails and what it means to create and work with non-fungible tokens."
+        }
+      }]
+    }
+    `}
+      </Script> */}
+  
       </Head>
       {/* ============= Hero Section ================== */}
       <Slider />
@@ -109,7 +107,7 @@ function Home() {
       <TopProject alt="nft constructer" />
 
       {/* ===================Mentioned section ================== */}
-      <Featured alt="nft constructer" />
+      <Featured  alt="nft constructer"/>
 
       {/* =====================happy clients======================= */}
       <div className="cpy-6">
@@ -121,6 +119,7 @@ function Home() {
 
       {/* ===============================contact us ================ */}
       <ContactBtn alt="nft constructer" />
+
     </>
   );
 }

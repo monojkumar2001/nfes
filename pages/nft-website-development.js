@@ -131,7 +131,7 @@ function NFTWebsiteDevelopmentPage() {
         {/* =====================top project===================== */}
         <TopProject alt="nft website development"/>
 
-        <WorkPlace/>
+        {/* <WorkPlace/> */}
 
         {/* =====================happy clients======================= */}
         <Review alt="nft website development" />

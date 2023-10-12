@@ -282,6 +282,16 @@ ul.nav-menu {
         display: block;
         padding: 30px;
     }
+    .nav-link {
+      justify-content: center;
+    }
+    .nav-list a{
+        display: flex;
+        justify-content: center;
+    }
+    li.nav-list {
+        padding: 10px 0;
+    }
     .menu-nav-inner-right {
         position: fixed;
         top: 0;

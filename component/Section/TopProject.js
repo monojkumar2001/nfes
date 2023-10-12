@@ -62,7 +62,7 @@ function TopProject({alt}) {
                         <Image
                           width={22}
                           height={22}
-                          src={"/assets/images/top-project/Volume.svg"}
+                          src={"/assets/images/top-project/volume.svg"}
                           alt={alt}
                         />
                         <p>Volume</p>
@@ -149,7 +149,7 @@ function TopProject({alt}) {
             </div>
             <div className={styles.project_table_wrapper}>
               <div className={styles.top_project_bottom}>
-                <h4>Lorem ipsum dolor sit amet.</h4>
+                <h4>BLOCKCHAIN DEVELOPMENT PLATFORM</h4>
               </div>
               <div className={styles.top_project_bottom_img}>
                 <Image

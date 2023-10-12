@@ -113,6 +113,10 @@ export default function BlogDetails({ blog }) {
               <p className={styles.blog_page_link}>Blog</p>
             </Link>
             <p> &gt; </p>
+            <Link href={"/blog"}>
+              <p className={styles.blog_page_link}>Announcements</p>
+            </Link>
+            <p> &gt; </p>
 
             <Link href={`/blog/${blog.slug}`}>
               <p className={styles.blog_page_link}>{blog.title}</p>

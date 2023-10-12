@@ -41,13 +41,12 @@ top: -100px;
   margin-bottom: 20px;
 }
 .service_card_head span {
-  width: 60px;
-  height: 60px;
   background: linear-gradient(180deg, #5d6aef 0%, #952ef6 100%);
   color: var(--white-color);
   font-size: 22px;
   font-weight: 800;
   display: flex;
+  padding: 12px;
   border-radius: 100%;
   align-items: center;
   justify-content: center;
@@ -60,7 +59,7 @@ top: -100px;
 
 @media screen and (max-width: 992px) {
   .service_card_item {
-    padding: 15px;
+    padding: 5px;
   }
   .service_card {
     padding: 0 10px;
@@ -83,6 +82,9 @@ top: -100px;
     margin-top: 50px;
     margin: 50px 20px 0 10px;
 
+  }
+  .service_card_item .service_title {
+    font-size: 19px;
   }
   
 }

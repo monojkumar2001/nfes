@@ -3,6 +3,7 @@ import AppLayout from "../component/Layout/Layout";
 import Head from "next/head";
 import Faq from "react-faq-component";
 import Styles from "../styles/pages/HomePage/HomeFaq.module.css";
+import ContactBtn from "../component/Section/ContactBtn";
 function FaqPage() {
   const data = {
     rows: [
@@ -80,7 +81,7 @@ function FaqPage() {
   return (
     <>
       <Head>
-        <title>NFT Website Development Services |nft constructer</title>
+        <title>Frequently Asked Questions (FAQ) - Your Key Resource for Answers</title>
         <meta property="og:site_name" content="NFT CONSTRUCTER"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:url" content="https://www.nftconstructer.com" />
@@ -91,16 +92,16 @@ function FaqPage() {
         />
         <meta
           name="description"
-          content="We provide NFT website development services for digital content such as art, music, and videos, domain names, gaming items, investments, and other physical items that are unique Contact us!"
+          content=" Explore our FAQ page to get quick, comprehensive answers to common queries. Find clarity on our services and offerings. Your one-stop information hub"
         ></meta>
         <meta
           name="og:description"
-          content="We provide NFT website development services for digital content such as art, music, and videos, domain names, gaming items, investments, and other physical items that are unique Contact us!"
+          content=" Explore our FAQ page to get quick, comprehensive answers to common queries. Find clarity on our services and offerings. Your one-stop information hub"
         ></meta>
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="NFT Website Development Services |nft constructer"
+          content="Frequently Asked Questions (FAQ) - Your Key Resource for Answers"
         />
         <meta property="og:image" content="assets/img/meta/faqs.jpg" />
         <meta property="image" content="assets/img/meta/faqs.jpg" />
@@ -124,6 +125,7 @@ function FaqPage() {
           </div>
         </div>
       </div>
+      <ContactBtn alt="faqs" />
     </>
   );
 }

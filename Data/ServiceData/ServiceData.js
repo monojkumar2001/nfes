@@ -253,9 +253,21 @@ export const WebsiteServiceData=[
     },
     {
         id:6,
-        img:"/assets/img/icon/innovative.png",
+        img:"/assets/img/icon/ci.png",
         title:"Certified Designers",
         pra:"We have a team of certified UI/UX designers, that works round the clock to make your project unique."
+    },
+    {
+        id:7,
+        img:"/assets/img/icon/sp.png",
+        title:"Ongoing Support",
+        pra:"Our partnership doesn't end with the launch. We provide continued support and assistance, ensuring your website remains a digital masterpiece."
+    },
+    {
+        id:8,
+        img:"/assets/img/icon/so.png",
+        title:"Tailored Solutions",
+        pra:" We don't believe in one-size-fits-all. Your website is unique, and we tailor our services to meet your specific needs, whether you're an NFT enthusiast or a business aiming for a strong online presence."
     },
 ]
 
@@ -460,20 +472,26 @@ export const MarketingServiceData=[
 export const AboutServiceData=[
     {
         id:1,
-        img:"/assets/images/meta-service/meta-1.png",
+        img:"/assets/images/about/1.png",
         title:"Strategy",
         pra:"A team lead manager creates your development strategy with a clear action plan for Web3, DeFi, Dapps or NFT projects."
     },
     {
-        id:1,
-        img:"/assets/images/meta-service/meta-2.png",
+        id:2,
+        img:"/assets/images/about/2.png",
         title:"Collabs and partner ships",
         pra:"We can also introduce you to the right partners within the web3 space. We source, negotiate, and arrange for win-win deals."
     },
     {
-        id:1,
-        img:"/assets/images/meta-service/meta-3.png",
+        id:3,
+        img:"/assets/images/about/3.png",
         title:"Influence Marketing",
         pra:"We create your Web3, DeFi, Dapps or NFT projects with marketig friednly UI & functional prattern that influnce the core of martketing needs"
+    },
+    {
+        id:4,
+        img:"/assets/images/about/4.png",
+        title:"Market Research",
+        pra:"Market research is our compass, guiding us through the uncharted territories of DeFi and Web 3. We uncover trends, map out the competition, and find golden opportunities."
     },
 ]

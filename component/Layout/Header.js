@@ -123,13 +123,13 @@ function Header() {
                                   </div>
                                   <div className="multi-text">
                                     <p className="nav-title">NFT Website Development</p>
-                                    <p>Learn More </p>
+                                    <p>Innovative NFT Website Solutions</p>
                                   </div>
                                 </div>
                               </Link>
                             </li>
                             <li onClick={_toggleSidebar}>
-                              <Link href={"/metaverse"}>
+                              <Link href={"/metaverse-development"}>
                                 <div className="dp-link">
                                   <div className="icon-add">
                                     <Image width={45} height={45} src="/assets/img/nav/metaverse-development.png" alt=" Metaverse Development" />
@@ -138,7 +138,7 @@ function Header() {
                                     <p className="nav-title">
                                       Metaverse Development
                                     </p>
-                                    <p>Learn More </p>
+                                    <p>Empower Digital Transformation Today</p>
                                   </div>
                                 </div>
                               </Link>
@@ -151,7 +151,7 @@ function Header() {
                                   </div>
                                   <div className="multi-text">
                                     <p className="nav-title">Website Design</p>
-                                    <p>Learn More </p>
+                                    <p>Enhance Online Branding Success</p>
                                   </div>
                                 </div>
                               </Link>
@@ -166,7 +166,7 @@ function Header() {
                                     <p className="nav-title">
                                       DeFi Development
                                     </p>
-                                    <p>Learn More </p>
+                                    <p>Empower Finance Through DeFi</p>
                                   </div>
                                 </div>
                               </Link>
@@ -179,13 +179,13 @@ function Header() {
                                   </div>
                                   <div className="multi-text">
                                     <p className="nav-title">Marketing</p>
-                                    <p>Learn More </p>
+                                    <p>Boost Brand and Revenue</p>
                                   </div>
                                 </div>
                               </Link>
                             </li>
                             <li onClick={_toggleSidebar}>
-                              <Link href={"/smart-contract"}>
+                              <Link href={"/smart-contract-development"}>
                                 <div className="dp-link">
                                   <div className="icon-add">
                                     <Image width={45} height={45} src="/assets/img/nav/smart-contact.png" alt="" />
@@ -194,7 +194,7 @@ function Header() {
                                     <p className="nav-title">
                                       Smart Contract Development
                                     </p>
-                                    <p>Learn More</p>
+                                    <p>Elevate Transactions, Maximize Security </p>
                                   </div>
                                 </div>
                               </Link>
@@ -215,8 +215,8 @@ function Header() {
                       _toggleSidebar={_toggleSidebar}
                     />
                     <Navlink
-                      href="/portfolio"
-                      text="Portfolio"
+                      href="/case-study"
+                      text="Case Study"
                       _toggleSidebar={_toggleSidebar}
                     />
                     <Navlink
