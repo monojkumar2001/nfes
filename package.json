@@ -5,8 +5,8 @@
     "scripts": {
         "lint": "next lint",
         "dev": "node server.js",
-        "start": "react-scripts --openssl-legacy-provider start",
-        "build": "react-scripts --openssl-legacy-provider build"
+        "start": "next-scripts --openssl-legacy-provider start",
+        "build": "next-scripts --openssl-legacy-provider build"
     },
     "dependencies": {
         "@emotion/react": "^11.10.5",
