@@ -7,14 +7,14 @@ import Featured from "../component/Section/Featured";
 import PriceRangeSlider from "../component/Section/PriceRange";
 import ContactBtn from "../component/Section/ContactBtn";
 import DescriptionSection from "../component/Section/DescriptionSection";
-import { SmartContractDescriptionData } from "./Data/DescriptionData/DescriptionData";
+import { SmartContractDescriptionData } from "/Data/DescriptionData/DescriptionData";
 import NftDevelopmentTechStack from "../component/Section/NftDevelopmentTechStack";
 import FeaturesItem from "../component/Section/FeaturesItem";
-import { SmartContractFeaturesData } from "./Data/FeaturesData/FeaturesData";
+import { SmartContractFeaturesData } from "/Data/FeaturesData/FeaturesData";
 import Faqq from "../component/Section/Faqq";
-import { SmartContractFaqData } from "./Data/FaqData/FaqData";
+import { SmartContractFaqData } from "/Data/FaqData/FaqData";
 import BenifitsItem from "../component/Section/BenifitsItem";
-import { SmartContractDevelopmentServices } from "./Data/BenifitsItemData/BenifitsItemData";
+import { SmartContractDevelopmentServices } from "/Data/BenifitsItemData/BenifitsItemData";
 import HeroSection from "../component/SmartContactPage/HeroSection";
 import SaveTime from "../component/Section/SaveTime";
 

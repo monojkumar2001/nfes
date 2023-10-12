@@ -7,13 +7,13 @@ import Featured from "../component/Section/Featured";
 import PriceRangeSlider from "../component/Section/PriceRange";
 import ContactBtn from "../component/Section/ContactBtn";
 import DescriptionSection from "../component/Section/DescriptionSection";
-import { MarketingDescriptionData } from "./Data/DescriptionData/DescriptionData";
+import { MarketingDescriptionData } from "/Data/DescriptionData/DescriptionData";
 import ServiceCardItem from "../component/Section/ServiceCardItem";
-import { MarketingServiceData } from "./Data/ServiceData/ServiceData";
+import { MarketingServiceData } from "/Data/ServiceData/ServiceData";
 import BenifitsItem from "../component/Section/BenifitsItem";
-import { NftMarketing } from "./Data/BenifitsItemData/BenifitsItemData";
+import { NftMarketing } from "/Data/BenifitsItemData/BenifitsItemData";
 import Faqq from "../component/Section/Faqq";
-import { MarketingFaqData } from "./Data/FaqData/FaqData";
+import { MarketingFaqData } from "/Data/FaqData/FaqData";
 import HeroSection from "../component/MarketingPage/HeroSection";
 
 function Marketing() {

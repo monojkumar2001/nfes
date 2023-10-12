@@ -7,16 +7,16 @@ import Featured from "../component/Section/Featured";
 import PriceRangeSlider from "../component/Section/PriceRange";
 import ContactBtn from "../component/Section/ContactBtn";
 import DescriptionSection from "../component/Section/DescriptionSection";
-import { MetaverseDescriptionData } from "./Data/DescriptionData/DescriptionData";
+import { MetaverseDescriptionData } from "/Data/DescriptionData/DescriptionData";
 import Faqq from "../component/Section/Faqq";
-import { MetaverseFaqData } from "./Data/FaqData/FaqData";
+import { MetaverseFaqData } from "/Data/FaqData/FaqData";
 import Servicecard from "../component/Section/SaveTime";
 import ServiceCardItem from "../component/Section/ServiceCardItem";
-import { MetaverseServiceData } from "./Data/ServiceData/ServiceData";
+import { MetaverseServiceData } from "/Data/ServiceData/ServiceData";
 import FeaturesItem from "../component/Section/FeaturesItem";
-import { MetaverseFeaturesData } from "./Data/FeaturesData/FeaturesData";
+import { MetaverseFeaturesData } from "/Data/FeaturesData/FeaturesData";
 import BenifitsItem from "../component/Section/BenifitsItem";
-import { MetaverseDevelopment } from "./Data/BenifitsItemData/BenifitsItemData";
+import { MetaverseDevelopment } from "/Data/BenifitsItemData/BenifitsItemData";
 import HeroSection from "../component/MetaversePage/HeroSection";
 
 function Metaverse() {

@@ -8,7 +8,7 @@ import {
   AdminDashboards,
   NFTMarketplaces,
   NftPlatfroms,
-} from "../../pages/Data/PortfolioData/PortfolioData";
+} from "/Data/PortfolioData/PortfolioData";
 const PortfolioSection = () => {
   const [portfolio, setPortfolio] = useState(1);
   const [visibleCards, setVisibleCards] = useState(6);

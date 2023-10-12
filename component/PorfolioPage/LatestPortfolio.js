@@ -6,8 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, A11y } from "swiper";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import Image from "next/image";
-import { NftPlatfroms } from "../../pages/Data/PortfolioData/PortfolioData";
-import { BsArrowRight } from "react-icons/bs";
+import { NftPlatfroms } from "/Data/PortfolioData/PortfolioData";
 function LatestPortfolio() {
   const [posts, setPosts] = useState([]);
 

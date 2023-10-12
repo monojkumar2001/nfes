@@ -8,7 +8,7 @@ import {
   FrontEndFrameworksData,
   ProgrammingLanguagesData,
   CloudPlatformsData,
-} from "../../pages/Data/NftTeckStackData/NftTeckStackData";
+} from "/Data/NftTeckStackData/NftTeckStackData";
 import Image from "next/image";
 const NftDevelopmentTechStack = ({ short_dis, alt }) => {
   const [service, setService] = useState(1);

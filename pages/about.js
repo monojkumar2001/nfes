@@ -5,7 +5,7 @@ import WhyChose from "../component/Section/WhyChose";
 import ContactBtn from "../component/Section/ContactBtn";
 import HeroSection from "../component/AboutPage/HeroSection";
 import ServiceCardItem from "../component/Section/ServiceCardItem";
-import { AboutServiceData } from "./Data/ServiceData/ServiceData";
+import { AboutServiceData } from "/Data/ServiceData/ServiceData";
 import SolvingProblem from "../component/AboutPage/SolvingProblem";
 import SaveTime from "../component/Section/SaveTime";
 

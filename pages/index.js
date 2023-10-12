@@ -9,7 +9,7 @@ import ContactBtn from "../component/Section/ContactBtn";
 import WhyChose from "../component/Section/WhyChose";
 import Faqq from "../component/Section/Faqq";
 import Service from "../component/HomePage/Service";
-import { HomeFaqData } from "./Data/FaqData/FaqData";
+import { HomeFaqData } from "/Data/FaqData/FaqData";
 import Slider from "../component/HomePage/Slider";
 import SaveTime from "../component/Section/SaveTime";
 function Home() {
