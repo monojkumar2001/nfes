@@ -6,9 +6,6 @@
         "lint": "next lint",
         "dev": "node server.js",
         "build": "next build",
-        "deploy": "gh-pages -d build",
-        "predeploy": "npm run build",
-        "postbuild": "next-sitemap",
         "start": "next start"
     },
     "dependencies": {
@@ -25,6 +22,7 @@
         "lottie-react": "^2.4.0",
         "next": "12.1.5",
         "next-sitemap": "^4.0.5",
+        "react": "^18.2.0",
         "react-countup": "^6.2.0",
         "react-currency-format": "^1.1.0",
         "react-dom": "^17.0.0",
