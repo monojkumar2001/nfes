@@ -23,7 +23,7 @@ const HeroSection = () => {
 
               <div className={Styles.hero_btns}>
                 <button className={Styles.btn_hero_1}>
-                  <Link href="">Hire Me</Link>
+                  <Link href="#about">Hire Me</Link>
                 </button>
               </div>
             </div>
