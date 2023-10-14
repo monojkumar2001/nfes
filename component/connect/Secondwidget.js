@@ -1,5 +1,5 @@
 import React from "react";
-import CurrencyFormat from "react-currency-format";
+// import CurrencyFormat from "react-currency-format";
 const Secondwidget = ({
   category,
   subCategory,
@@ -68,14 +68,14 @@ const Secondwidget = ({
         <div className="input-group">
           <label>What is your monthly marketing budget?</label>
 
-          <CurrencyFormat
+          {/* <CurrencyFormat
             thousandSeparator={true}
             prefix={"$"}
             type="text"
             name="market"
             onChange={inputsHandler}
             value={inputField.market}
-          />
+          /> */}
           <small style={{ color: "red" }}>{inputField.error_log.market}</small>
         </div>
 

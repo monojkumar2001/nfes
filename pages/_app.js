@@ -109,7 +109,7 @@ function MyApp({ Component, pageProps }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
         </Head>
-        <OfferC />
+        {/* <OfferC /> */}
 
         <Component {...pageProps} />
 
