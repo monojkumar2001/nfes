@@ -21,7 +21,7 @@ function LatestPortfolio() {
   return (
     <>
       <section className={`${styles.latest_portfolio} cpb-6`}>
-        <div className="container">
+        <div className={styles.container}>
           <div className="section-title">
             <h2 className="sec-title">Our Other Work</h2>
             <p className="sec-des">

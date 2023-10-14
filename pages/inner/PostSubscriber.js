@@ -46,7 +46,7 @@ function PostSubscriber() {
   return (
     <div>
       <div className="post-subscriber cpy-6">
-        <div className="container">
+        <div className={styles.container}>
           <div className={styles.post_subscriber_wrapper}>
             <div className={styles.post_subscriber_left}>
               <div className={styles.post_subscriber_left_content}>

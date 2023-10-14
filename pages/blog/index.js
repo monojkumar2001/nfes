@@ -8,7 +8,6 @@ import axios from "axios";
 import { fontSize } from "@mui/system";
 import styles from "../../styles/pages/BlogPage/BlogPage.module.css";
 
-
 function Blog() {
   // const [error, setError] = useState(null);
   // const [isLoaded, setIsLoaded] = useState(false);
@@ -48,6 +47,8 @@ function Blog() {
     );
   }
 
+  console.log("blog", posts);
+
   return (
     <>
       <Head>
@@ -84,7 +85,6 @@ function Blog() {
           content="nft, full stack, web development, website, website design , website development,development, nft constructer, minting website"
         ></meta>
         <link rel="icon" type="image" href="/favicon.png"></link>
-
       </Head>
       <noscript>
         <iframe
@@ -94,14 +94,17 @@ function Blog() {
       </noscript>
 
       <section id="blog" className={`${styles.blog_page} cpy-6`}>
-      <div className={styles.yellow_filter}></div>
+        <div className={styles.yellow_filter}></div>
         <div className={styles.blue_filter}></div>
-        <div className="container">
+        <div className={styles.container}>
           <div className={styles.section_title}>
             <p className={styles.sm_title}>My Blog</p>
             <h2 className={styles.sec_title}>Latest News</h2>
             <p className="sec-des">
-            Discover valuable insights on software development in our blogs, covering exchange software, wallet software, derivative products, and more. Stay informed and up-to-date with our informative blog content.
+              Discover valuable insights on software development in our blogs,
+              covering exchange software, wallet software, derivative products,
+              and more. Stay informed and up-to-date with our informative blog
+              content.
             </p>
           </div>
 
@@ -117,35 +120,22 @@ function Blog() {
               />
             ) : (
               posts.map((post, index) => (
-                <div className={styles.blog_post} key={index}>
-                  <div className={styles.blog_img}>
-                    <img
-                      height="auto"
-                      width="auto"
-                      src={post.main_image}
-                      alt={'blog'}
-                    />
+                <Link href={`/blog/${post.slug}`} key={index}>
+                  <div className={styles.blog_post}>
+                    <div className={styles.blog_img}>
+                      <img
+                        height="auto"
+                        width="auto"
+                        src={post.main_image}
+                        alt={"blog"}
+                      />
+                    </div>
+                    <div className={styles.about_blog}>
+                      <button>ANNOUNCEMENTS</button>
+                      <h4 className={styles.urbanist_black_18}>{post.title}</h4>
+                    </div>
                   </div>
-                  <div className={styles.about_blog}>
-                    <button>ANNOUNCEMENTS</button>
-                    <Link href={`/blog/${post.slug}`}>
-                      <a className={styles.urbanist_black_18}>{post.title}</a>
-                    </Link>
-                    <p className={styles.raleway_grey_16}>
-                      <span className={styles.author_name_post}>
-                        {post.author}
-                      </span>{" "}
-                      <span className={styles.space}>|</span>
-                      <span className="post-date">{post.created_date}</span>
-                    </p>
-                    <p
-                      className="sm-des"
-                      dangerouslySetInnerHTML={{
-                        __html: post.description.substring(0, 100),
-                      }}
-                    ></p>
-                  </div>
-                </div>
+                </Link>
               ))
             )}
           </div>

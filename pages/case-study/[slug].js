@@ -16,6 +16,7 @@ import LatestPortfolio from "../../component/PorfolioPage/LatestPortfolio";
 import HeroSection from "../../component/PorfolioPage/HeroSection";
 import PortfolioAbout from "../../component/PorfolioPage/PortfolioAbout";
 import TechStacks from "../../component/Section/TechStacks";
+import PortfolioSingleHero from "../../component/PorfolioPage/PortfolioSingleHero";
 
 
 export default function CaseStudyPageDetails({ slug }) {
@@ -69,11 +70,9 @@ export default function CaseStudyPageDetails({ slug }) {
         ></iframe>
       </noscript>
     
-    {/* <OfferA /> */}
-    <HeroSection/>
-    <PortfolioAbout/>
+    <PortfolioSingleHero/>
     <TechStacks/>
-    
+    <PortfolioAbout/>
 <PostSubscriber/>
 <LatestPortfolio/>
     </>

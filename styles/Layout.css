@@ -285,7 +285,7 @@ ul.nav-menu {
     .nav-link {
       justify-content: center;
     }
-    .nav-list-active{
+    .nav-list-active {
         display: flex;
         justify-content: center;
     }

@@ -1,17 +1,22 @@
 
 /* // =====================Post subscribers form===================== */
 .post_subscriber_wrapper {
-  /* background-image: url(../../public/assets/img/banner/1.webp); */
   background-image: url(../../../public/assets/img/banner/1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 80px 40px;
+  padding: 50px 40px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+  position: relative;
 }
 
 .post_subscriber_left {
@@ -20,8 +25,9 @@
 
 .post_subscriber_left_content h2 {
   font-size: 50px;
-  line-height: 150%;
+  line-height: 130%;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 .post_subscriber_left_content h3{
   font-size: 25px;

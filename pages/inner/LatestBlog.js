@@ -3,8 +3,8 @@ import Link from "next/link";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, A11y } from "swiper";
-import {FaAngleLeft,FaAngleRight} from "react-icons/fa"
-import styles from '../../styles/pages/BlogPage/LatestBlog.module.css'
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import styles from "../../styles/pages/BlogPage/LatestBlog.module.css";
 import Image from "next/image";
 function LatestBlog() {
   const [posts, setPosts] = useState([]);
@@ -19,7 +19,7 @@ function LatestBlog() {
   return (
     <section>
       <div className={styles.latest_blog}>
-        <div className="container">
+        <div className={styles.container}>
           <div className="latest-post-title">
             <h2 className={styles.raleway_black_24}>CONTINUE READING</h2>
           </div>
@@ -53,45 +53,46 @@ function LatestBlog() {
                   }}
                 >
                   {posts.map((post, index) => (
-                    <SwiperSlide className={styles.latest_blog_post} key={post.id}>
-                      <div className={`${styles.blog_post} ${styles.post_card}`}>
-                        <div className={styles.blog_img}>
-                          <img
-                            height={216}
-                            width={411}
-                            src={post.main_image}
-                            alt={post.seo_title}
-                          />
+                    <SwiperSlide
+                      className={styles.latest_blog_post}
+                      key={post.id}
+                    >
+                      <Link href={post.slug}>
+                        <div
+                          className={`${styles.blog_post} ${styles.post_card}`}
+                        >
+                          <div className={styles.blog_img}>
+                            <img
+                              height={216}
+                              width={411}
+                              src={post.main_image}
+                              alt={post.seo_title}
+                            />
+                          </div>
+                          <div className={styles.about_blog}>
+                            <button>ANNOUNCEMENTS</button>
+
+                            <h4 className={styles.urbanist_black_18}>
+                              {post.title}
+                            </h4>
+                          </div>
                         </div>
-                        <div className={styles.about_blog}>
-                          <Link href={post.slug}>
-                            <h4 className={styles.urbanist_black_18}>{post.title}</h4>
-                          </Link>
-                          <p className={styles.raleway_grey_16}>
-                            <span className={styles.author_name_post}>
-                              {post.author}
-                            </span>{" "}
-                            <span className={styles.space}>|</span>
-                            <span>
-                              {post.created_date}
-                            </span>
-                          </p>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: post.description.substring(0, 100),
-                            }}
-                          ></p>
-                        </div>
-                      </div>
+                      </Link>
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                <div className={`${styles.slider_nav} ${styles.latest_post_nav_arrow}`}>
+                <div
+                  className={`${styles.slider_nav} ${styles.latest_post_nav_arrow}`}
+                >
                   <div className="prev">
-                  <span><FaAngleLeft/></span>
+                    <span>
+                      <FaAngleLeft />
+                    </span>
                   </div>
                   <div className="next">
-                  <span><FaAngleRight/></span>
+                    <span>
+                      <FaAngleRight />
+                    </span>
                   </div>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 .portfolios_title h3 {
   font-size: 60px;
   font-weight: 900;
-  background: linear-gradient(90deg, #6C54EA 0%, #751EE4 81.82%);
+  background: linear-gradient(90deg, #6c54ea 0%, #751ee4 81.82%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -22,11 +22,11 @@
   font-weight: 600;
 }
 .options {
-  background: #F4F4F4;
+  background: #f4f4f4;
   border-radius: 50px;
 }
 .options.active {
-  background: linear-gradient(100deg, #7154EA 8.24%, #C354EA 91.68%);
+  background: linear-gradient(100deg, #7154ea 8.24%, #c354ea 91.68%);
   color: #fff;
   border-radius: 50px;
 }
@@ -48,17 +48,18 @@
 .portfolios_card {
   height: 100%;
   border-radius: 10px;
-  margin-bottom: 20px;
   overflow: hidden;
   display: flex;
-  box-shadow: 0px 24.63961px 44.58943px 0px rgba(0, 0, 0, 0.05);
   align-items: center;
   flex-direction: column;
   position: relative;
-  background: var(--white-color);
   cursor: pointer;
   cursor: pointer;
   transition: 0.4s;
+}
+.portfolios_card:hover {
+  background: var(--white-color);
+  box-shadow: 0px 24.63961px 44.58943px 0px rgba(0, 0, 0, 0.05);
 }
 .portfolios_card:hover .portfolios_item_img {
   transform: scale(1.05);
@@ -67,11 +68,11 @@
   width: 100%;
   transition: 0.3s;
 }
-.portfolios_item_img img{
+.portfolios_item_img img {
   width: 100%;
 }
 .portfolios_item_title {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 20px 30px 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -80,20 +81,20 @@
   color: #878787;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 110%;
+  font-weight: 400;
+  line-height: 140%;
   letter-spacing: 0.798px;
 }
 .portfolios_item_title h4 {
-  color: #14161B;
-  font-size: 20px;
-  font-weight: 800;
-  line-height: 140%;
-  padding-bottom: 20px;
+  color: #14161b;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  padding-bottom: 10px;
   position: relative;
 }
 
-.portfolios_item_title .portfolio_read_more_btn{
+.portfolios_item_title .portfolio_read_more_btn {
   color: #fff;
   font-weight: 600;
   font-size: 16px;
@@ -103,13 +104,13 @@
   width: fit-content;
   background: var(--main-color);
 }
-.load_more_btn{
+.load_more_btn {
   margin-top: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.load_more_btn button{
+.load_more_btn button {
   border-radius: 50px !important;
 }
 @media screen and (max-width: 992px) {
@@ -130,14 +131,14 @@ justify-content: center;
     text-align: center;
   }
   .portfolios_item_title p {
-   text-align: start;
+    text-align: start;
   }
   .portfolio_header_item {
-overflow: auto;
-justify-content: flex-start;
+    overflow: auto;
+    justify-content: flex-start;
   }
   .portfolio_btn {
-  white-space: nowrap;
+    white-space: nowrap;
   }
   .portfolios_title h3 {
     font-size: 40px;

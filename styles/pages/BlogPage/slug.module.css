@@ -1,15 +1,26 @@
+.blog{
+  padding-top:150px;
+  padding-bottom: 100px;
+}
 .page_route {
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: 600;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
   }
   .blog_page_link {
     cursor: pointer;
     color:var(--black-color);
     transition: 0.4s;
+    font-size: 15px;
+    font-weight: 500;
   }
   .blog_page_link:hover{
     cursor: pointer;
@@ -20,8 +31,9 @@
     font-size: 35px;
     line-height: 150%;
     color: #31394c;
-    margin-bottom: 20px;
-    width: 66%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
   }
   .blog_img {
     overflow: hidden;
@@ -31,58 +43,35 @@
   .blog_img img {
     width: 100%;
   }
-  .small_info {
-    padding: 14px 24px;
-    display: flex;
-    background: #ffffff;
-    box-shadow: 4px 4px 60px rgb(99 69 237 / 15%);
-    border-radius: 5px;
-    align-items: center;
-    margin-top: -28px !important;
-    z-index: 1;
-    position: relative;
-    margin: auto;
-    justify-content: center;
-    width: 350px;
-    gap: 60px;
-  }
-  
-  .small_info::before {
-    content: "";
-    height: 100%;
-    width: 1px;
-    background: #bababa;
-    position: absolute;
-    top: 0;
-  }
-  
-  .small_info div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .small_info div:nth-child(1) {
-    padding-left: 0px;
-  }
-  
-  .small_info div:nth-child(3) {
-    padding-right: 0px;
-  }
-  .urbanist_grey_15 {
-    font-weight: 500;
-    font-size: 15px;
-    color: #616161;
-  }
+
   .blog_content {
-    display: grid;
-    grid-template-columns: 20% 77%;
+    width: 80%;
     margin: auto;
-    grid-gap: 32px;
-    gap: 32px;
+  }
+  .nft_team_header{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  .nft_con_team {
+    display: flex;
+    align-items:center;
+    gap: 20px;
+  }
+  .nft_team_content p{
+font-size: 16px;
+color: var(--black-color);
+font-weight: 600;
+line-height: 14px;
+  }
+  .nft_team_content span{
+font-size: 14px;
+color:#999;
+font-weight: 400;
   }
   .tags_media {
-    margin: 52px 0;
     justify-content: space-between;
     height: 100vh;
     max-height: calc(100vh - 20px);
@@ -108,7 +97,6 @@
   }
   .soc_share {
     display: flex;
-    flex-direction: column;
     grid-gap: 20px;
     gap: 10px;
     margin-top: 20px;
@@ -187,7 +175,7 @@
     .progress_bar {
         position: fixed;
         top: 93px;
-        z-index: 999;
+        z-index: 1;
         left: 0;
         right: 0;
     }
@@ -196,6 +184,10 @@
     }
     .blog_txt {
         margin-top: 0;
+    }
+    .blog{
+      padding-top:100px;
+      padding-bottom: 0px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -216,6 +208,14 @@
     }
     .small_info div:nth-child(3) {
         padding-right: 0px;
+    }
+    .blog_content {
+      width: 100%;
+      margin: auto;
+    }
+    .nft_team_header{
+      flex-direction: column;
+      align-items: center;
     }
   }
   @media only screen and (max-width: 600px) {

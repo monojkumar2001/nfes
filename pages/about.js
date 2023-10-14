@@ -75,8 +75,8 @@ function About() {
             data={AboutServiceData}
             title={" We’re Like your cheif growth officer"}
             description={``}
-            id={'about'}
             alt={'about'}
+            id={'about'}
           />
         </div>
         {/* ===================service section end ================== */}

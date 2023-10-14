@@ -82,14 +82,14 @@ const PortfolioSection = () => {
                   {currentPortfolioData
                     .slice(0, visibleCards)
                     .map((item, i) => (
-                      <Link href={`/portfolio/`} key={item.id}>
+                      <Link href={`/case-study/`} key={item.id}>
                         <div className={styles.portfolios_card} >
                         <div className={styles.portfolios_item_img}>
                           <Image
                             src={item.img}
                             width={420}
                             height={240}
-                            alt='portfolio'
+                            alt='case-study'
                           />
                         </div>
                         <div className={styles.portfolios_item_title}>
@@ -116,14 +116,14 @@ const PortfolioSection = () => {
                   {currentPortfolioData
                     .slice(0, visibleCards)
                     .map((item, i) => (
-                      <Link href={`/portfolio/`} key={item.id}>
+                      <Link href={`/case-study/`} key={item.id}>
                       <div className={styles.portfolios_card} >
                       <div className={styles.portfolios_item_img}>
                         <Image
                           src={item.img}
                           width={420}
                           height={240}
-                          alt='portfolio'
+                          alt='case-study'
                         />
                       </div>
                       <div className={styles.portfolios_item_title}>
@@ -149,14 +149,14 @@ const PortfolioSection = () => {
                   {currentPortfolioData
                     .slice(0, visibleCards)
                     .map((item, i) => (
-                      <Link href={`/portfolio/`} key={item.id}>
+                      <Link href={`/case-study/`} key={item.id}>
                       <div className={styles.portfolios_card} >
                       <div className={styles.portfolios_item_img}>
                         <Image
                           src={item.img}
                           width={420}
                           height={240}
-                          alt='portfolio'
+                          alt='case-study'
                         />
                       </div>
                       <div className={styles.portfolios_item_title}>
