@@ -3,10 +3,10 @@ import Link from "next/link";
 import AppLayout from "../component/Layout/Layout";
 import Head from "next/head";
 import axios from "axios";
-import Firstwidget from "../component/pages/connect/Firstwidget"
-import Secondwidget from "../component/pages/connect/Secondwidget"
-import Thirdwidget from "../component/pages/connect/Thirdwidget"
-import Fourthwidget from "../component/pages/connect/Fourthwidget"
+import Firstwidget from "../component/connect/Firstwidget";
+import Secondwidget from "../component/connect/Secondwidget"
+import Thirdwidget from "../component/connect/Thirdwidget"
+import Fourthwidget from "../component/connect/Fourthwidget"
 import { useRouter } from "next/router";
 
 
