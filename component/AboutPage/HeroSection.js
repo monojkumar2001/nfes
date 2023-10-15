@@ -48,8 +48,8 @@ const HeroSection = () => {
               data-aos-duration="2000"
             >
               <Image
-                width={1920}
-                height={568}
+                width={1400}
+                height={310}
                 loading="lazy"
                 src="/assets/images/about/hero-bg-img-3.svg"
                 alt="about"

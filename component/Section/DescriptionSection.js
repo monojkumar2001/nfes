@@ -6,6 +6,8 @@ const DescriptionSection = ({ data }) => {
     <>
       {/* {/ ================about us section ================== /} */}
       <section className={`${styles.about_us_content} cpt-6`}>
+
+        <div className={styles.yellow_filter}></div>
         <div className="container">
           <div className={styles.row_col_2}>
             <div
@@ -15,10 +17,10 @@ const DescriptionSection = ({ data }) => {
             >
               <div className={styles.about_us_img}>
                 <Image
-                  width="567px"
-                  height="565px"
+                  width={598}
+                  height={542}
                   loading="lazy"
-                  src="/assets/new/services/about-us.webp"
+                  src="/assets/new/services/about-us.svg"
                   alt="nft constructer"
                 />
               </div>
