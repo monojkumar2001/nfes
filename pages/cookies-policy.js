@@ -130,7 +130,7 @@ function CookiesPolicy() {
                 services available through our Website and to use some of its
                 features, such as access to secure areas.
               </p>
-
+              <br />
               <h2 className="pp-title">
                 2. How can I control cookies on my browser:
               </h2>
@@ -167,7 +167,7 @@ function CookiesPolicy() {
                 cookies to operate effectively, therefore disabling cookies will
                 make them less functional.
               </p>
-
+              <br />
               <h2 className="pp-title">
                 4. Do you use Flash cookies or Local Shared Objects?
               </h2>
@@ -191,6 +191,7 @@ function CookiesPolicy() {
                 hinder the performance of some Flash apps, potentially affecting
                 the way they interact with our services or online content.
               </p>
+              <br />
 
               <h2 className="pp-title">5. Do you serve targeted advertising?</h2>
               <p className="urbanist-black-16">
@@ -208,7 +209,7 @@ function CookiesPolicy() {
                 the information obtained through this method does not allow us
                 or them to identify you.
               </p>
-
+              <br />
               <h2 className="pp-title">
                 6. How often will you update this Cookie Policy?
               </h2>
@@ -220,6 +221,7 @@ function CookiesPolicy() {
                 frequently check this Cookie Policy. The last time this Cookie
                 Policy was changed is indicated by the date at the top.
               </p>
+              <br />
               <h2 className="pp-title">7.  Where can I get further information?</h2>
               <p className="urbanist-black-16">
                 If you have any questions about our use of cookies or other

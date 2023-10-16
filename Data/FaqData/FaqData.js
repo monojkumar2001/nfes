@@ -26,6 +26,14 @@ export const HomeFaqData = {
 export const NftDevelopmentFaqData =  {
   rows: [
     {
+      title: "What is an NFT marketplace?",
+      content: `An NFT is a unique digital certificate on a blockchain, verifying ownership of something special, be it digital art or a real-world item. NFT marketplaces are where you trade these certificates, each with its own focus and reputation.`,
+    },
+    {
+      title: "Which are the top 10 best NFT marketplaces?",
+      content: "OpenSea <br> Variable <br> SuperRare <br> NBA Top Shot <br> CryptoPunks <br> Foundation <br> Decentraland Marketplace <br> Zora <br> KnownOrigin <br> Mintabl",
+    },
+    {
       title: "What does it mean to have a non-fungible token?",
       content: `Non-fungible tokens serve as exclusive assets in a decentralized system.`,
     },
@@ -45,13 +53,13 @@ export const NftDevelopmentFaqData =  {
     },
     {
       title:
-        "What are The Benefits of Getting NFT Development Services from NFT CONSTRUCTER?  ",
+        "What are The Benefits of Getting NFT Development Services from NFT CONSTRUCTER?",
       content: `Take advantage of NFT CONSTRUCTER's experience since it offers NFT development services in the USA, UK, China, Canada, Germany, and Australia. We continuously expanding our operations into new markets to support cutting-edge NFT projects. `,
     },
     {
       title: "Our NFT Development Services include what?",
       content: `As a highly experienced provider of NFT development services, we help you build NFT collections, marketplaces, play-to-earn games, launchpads, and aggregator applications. We also provide white label software, and each of these solutions is completely original`,
-    }
+    },
   ],
 };
 export  const MetaverseFaqData = {

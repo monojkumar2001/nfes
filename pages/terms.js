@@ -75,6 +75,7 @@ function BlogDetails() {
                 entity with the authority to bind the entity to these Terms, and
                 (b) you agree to these Terms on the entity’s behalf.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 PLEASE READ THESE TERMS OF SERVICE CAREFULLY AS THEY CONTAIN
                 IMPORTANT INFORMATION AND AFFECT YOUR LEGAL RIGHTS. AS OUTLINED
@@ -84,12 +85,14 @@ function BlogDetails() {
                 THROUGH INDIVIDUAL ARBITRATION RATHER THAN BY A JUDGE OR JURY IN
                 COURT.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 BY CLICKING TO ACCEPT AND/OR USING OUR SERVICE, YOU AGREE TO BE
                 BOUND BY THESE TERMS AND ALL OF THE TERMS INCORPORATED HEREIN BY
                 REFERENCE. IF YOU DO NOT AGREE TO THESE TERMS, YOU MAY NOT
                 ACCESS OR USE THE SERVICE.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 Xhibiter is not a wallet provider, exchange, broker, financial
                 institution, or creditor. Xhibiter provides a peer-to-peer web3
@@ -101,6 +104,7 @@ function BlogDetails() {
                 third-party wallet which allows you to engage in transactions on
                 blockchains.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 Because we have a growing number of services, we sometimes need
                 to provide additional terms for specific services (and such
@@ -113,6 +117,7 @@ function BlogDetails() {
                 service, such additional terms shall control for that specific
                 service.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 The Service, including its “look and feel” (e.g., text,
                 graphics, images, logos, page headers, button icons, and
@@ -129,6 +134,7 @@ function BlogDetails() {
                 including, without limitation, the exclusive right to create
                 derivative works.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 You are hereby granted a limited, nonexclusive, nontransferable,
                 nonsublicensable, and personal license to access and use the
@@ -147,12 +153,14 @@ function BlogDetails() {
                 associated with any NFTs is solely as set forth by the
                 applicable seller or creator of such NFT.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 You are solely responsible for your use of the Service and for
                 any information you provide, including compliance with
                 applicable laws, rules, and regulations, as well as these Terms,
                 including the User Conduct requirements outlined above.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 By using the Service in conjunction with creating, submitting,
                 posting, promoting, or displaying content, or by complying with
@@ -168,6 +176,7 @@ function BlogDetails() {
                 linked to or associated with any NFTs that are displayed on the
                 Service.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 These Terms constitute the entire agreement between you and
                 Xhibiter relating to your access to and use of the Service.
@@ -181,6 +190,7 @@ function BlogDetails() {
                 used herein are for reference only and shall not be read to have
                 any legal effect.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 The Service is operated by us in the United States. Those who
                 choose to access the Service from locations outside the United
@@ -190,6 +200,7 @@ function BlogDetails() {
                 International Sale of Goods will not apply to the interpretation
                 or construction of these Terms.
               </p>
+              <br />
               <p className="urbanist-black-16">
                 Except as otherwise provided herein, these Terms are intended
                 solely for the benefit of the parties and are not intended to

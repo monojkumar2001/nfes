@@ -8,7 +8,11 @@ import PortfolioSection from "../../component/PorfolioPage/PortfolioSection";
 import SaveTime from "../../component/Section/SaveTime";
 import CompanyLogo from "../../component/Section/CompanyLogo";
 import TechStacks from "../../component/Section/TechStacks";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import Loading from "../../component/Loading/Loading";
 function CaseStudyPage() {
+
   return (
     <>
       <Head>

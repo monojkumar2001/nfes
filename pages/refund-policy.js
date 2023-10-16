@@ -71,7 +71,7 @@ function RefundPolicy() {
                 request for any reason or no reason.
               </p>
               <br />
-              <h3 className="pp-sm-title">2. Refunds </h3>
+              <h2 className="pp-title">2. Refunds </h2>
               <p className="urbanist-black-16">
                 Refunds may be applied as credit in U.S. dollars or returned to
                 the original credit/debit card or crypto currency account that
@@ -83,7 +83,7 @@ function RefundPolicy() {
                 7 working days.
               </p>
               <br />
-              <h3 className="pp-sm-title">3. Seven Day Guarantee </h3>
+              <h2 className="pp-title">3. Seven Day Guarantee </h2>
               <p className="urbanist-black-16">
                 with the services they have purchased within the first 168 hours
                 (7 days) of their purchase, provided they meet the requirements
@@ -95,7 +95,7 @@ function RefundPolicy() {
                 improve our services going forward?
               </p>
               <br />
-              <h3 className="pp-sm-title">4. Mid-service Cancellation </h3>
+              <h2 className="pp-title">4. Mid-service Cancellation </h2>
               <p className="urbanist-black-16">
                 Mid-service cancellation is not guaranteed to result in a refund
                 after our seven-day guarantee mentioned in section III has
@@ -103,9 +103,9 @@ function RefundPolicy() {
                 although each situation is examined individually.
               </p>
               <br />
-              <h3 className="pp-sm-title">
+              <h2 className="pp-title">
                 5. Downtime, Outage, or System Failure Guarantee{" "}
-              </h3>
+              </h2>
               <p className="urbanist-black-16">
                 You can be eligible for a partial credit refund or an extension
                 of service time if our hardware, network, or service platform
@@ -123,7 +123,7 @@ function RefundPolicy() {
               </p>
               <br />
 
-              <h3 className="pp-sm-title">6. Eligible Services </h3>
+              <h2 className="pp-title">6. Eligible Services </h2>
               <p className="urbanist-black-16">
                 Unfortunately, not all of our services or offerings is subject
                 to a refund. Refunds may be available for any of our shared game
@@ -131,7 +131,7 @@ function RefundPolicy() {
                 dedicated servers, and domain transfers may not be eligible for
                 a refund and there is no assurance that they will.
               </p>
-
+              <br />
               <h2 className="pp-title">7. Payment Disputes </h2>
               <p className="urbanist-black-16">
                 If a customer ever believes that we have done them wrong, we

@@ -21,14 +21,11 @@ export default function DiscreteSlider({ valuetext }) {
           <div className={`section-title ${styles.price_range_width}`}      data-aos="fade-up"
                   data-aos-duration="1000">
             <h2 className="sec-title">
-              Customize <span>pricing</span> and quotation methods.
+              Customize <span>pricing</span> and quotation methods
             </h2>
 
             <p className="sec-des">
-              Use our personalized pricing plans to bring in high-caliber for
-              your project. Our pricing plan service combines the work of top
-              team of developers from across the globe with technology that has
-              been specifically designed for the purpose.
+            Leverage Tailored Pricing Strategies for Premium Project Results: Our pricing plans unite the expertise of a global top-tier developer team with purpose-built technology.
             </p>
           </div>
           <div className={styles.range_area}      data-aos="fade-up"

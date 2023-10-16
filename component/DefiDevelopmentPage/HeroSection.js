@@ -17,9 +17,9 @@ const HeroSection = () => {
                 Build Your <span>Decentralized</span> Exchange Platform
               </h1>
 
+           
               <p>
-                We create DeFi apps range across a variety of financial
-                instruments, from lending/borrowing platforms to stablecoins.
+              Our expertise extends to crafting DeFi applications that span the financial spectrum, encompassing lending and borrowing platforms, stablecoins, and beyond
               </p>
 
               <div className="hero-btns">

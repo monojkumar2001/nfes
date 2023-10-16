@@ -9,7 +9,28 @@ import {
   NFTMarketplaces,
   NftPlatfroms,
 } from "/Data/PortfolioData/PortfolioData";
+import axios from "axios";
+import Loading from "../Loading/Loading";
 const PortfolioSection = () => {
+  const [loading, setLoading] = useState(false);
+  const [study, setStudy] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://api.nftconstructer.com/api/blog")
+      .then((res) => setStudy(res.data));
+      setStudy(false);
+
+    
+  }, []);
+
+  if (loading) {
+    return (
+      <Loading/>
+    );
+  }
+
+  console.log("blog", study);
   const [portfolio, setPortfolio] = useState(1);
   const [visibleCards, setVisibleCards] = useState(6);
   const portfoliosData = [NftPlatfroms, NFTMarketplaces, AdminDashboards];
@@ -20,7 +41,8 @@ const PortfolioSection = () => {
   };
   return (
     <>
-      <section className="cpt-6">
+      { <Loading/> && (
+        <section className="cpt-6">
         <div className="container">
           <div className="portfolios-warrper">
             <div className={styles.portfolios_title}>
@@ -185,6 +207,7 @@ const PortfolioSection = () => {
           </div>
         </div>
       </section>
+      )}
     </>
   );
 };

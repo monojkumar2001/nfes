@@ -28,12 +28,10 @@ function TopProject({alt}) {
         <div className="container">
           <div className={`section-title`}>
             <p className={styles.sm_title}>best service</p>
-            <h2 className="sec-title">The Complete Developer Platform</h2>
+            <h2 className="sec-title">Your Comprehensive Developer Hub</h2>
 
             <p className="sec-des">
-              NFT Constructer is one of the most trusted non-fungible token
-              development company that ensures the customized token offers an
-              innovative platform to meet the specific demand of your business.
+            NFT Constructer stands as a reputable leader in the non-fungible token, DeFi, DApps, and NFT marketplace development arena. We specialize in crafting tailored tokens and innovative platforms to precisely align with your business needs
             </p>
           </div>
 

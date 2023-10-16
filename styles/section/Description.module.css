@@ -1,6 +1,7 @@
 .row_col_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 20px;
 }
 .yellow_filter{
@@ -33,13 +34,13 @@
 }
 
 .about_content_inner h1 {
-  font-size: 40px;
-  text-transform: capitalize;
+  font-size: 50px;
   color: var(--second-color);
   margin-bottom: 20px;
   position: relative;
   display: inline-block;
   padding-bottom: 20px;
+  font-weight: 900;
   line-height: 130%;
 }
 
@@ -66,8 +67,21 @@
       grid-template-columns: 1fr;
       gap: 20px;
     }
+    .about_us_img{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
     .yellow_filter{
       display: none;
+    }
+    .about_content_inner{
+      text-align: center;
+    }
+    .about_content_inner h1 {
+      display: flex;
+      justify-content: center;
+
     }
 }
 

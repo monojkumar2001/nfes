@@ -122,7 +122,7 @@ function Header() {
                                     <Image width={45} height={45} src="/assets/img/nav/nft-development.png" alt="" />
                                   </div>
                                   <div className="multi-text">
-                                    <p className="nav-title">NFT Website Development</p>
+                                    <h4 className="nav-title">NFT Website Development</h4>
                                     <p>Innovative NFT Website Solutions</p>
                                   </div>
                                 </div>
@@ -135,9 +135,9 @@ function Header() {
                                     <Image width={45} height={45} src="/assets/img/nav/metaverse-development.png" alt=" Metaverse Development" />
                                   </div>
                                   <div className="multi-text">
-                                    <p className="nav-title">
+                                    <h4 className="nav-title">
                                       Metaverse Development
-                                    </p>
+                                    </h4>
                                     <p>Empower Digital Transformation Today</p>
                                   </div>
                                 </div>
@@ -150,7 +150,7 @@ function Header() {
                                     <Image width={45} height={45} src="/assets/img/nav/web-design.png" alt="Website Design" />
                                   </div>
                                   <div className="multi-text">
-                                    <p className="nav-title">Website Design</p>
+                                    <h4 className="nav-title">Website Design</h4>
                                     <p>Enhance Online Branding Success</p>
                                   </div>
                                 </div>
@@ -163,9 +163,9 @@ function Header() {
                                     <Image width={45} height={45} src="/assets/img/nav/defi-development.png" alt="" />
                                   </div>
                                   <div className="multi-text">
-                                    <p className="nav-title">
+                                    <h4 className="nav-title">
                                       DeFi Development
-                                    </p>
+                                    </h4>
                                     <p>Empower Finance Through DeFi</p>
                                   </div>
                                 </div>
@@ -178,7 +178,7 @@ function Header() {
                                     <Image width={45} height={45} src="/assets/img/nav/marketing.png" alt="Marketing" />
                                   </div>
                                   <div className="multi-text">
-                                    <p className="nav-title">Marketing</p>
+                                    <h4 className="nav-title">Marketing</h4>
                                     <p>Boost Brand and Revenue</p>
                                   </div>
                                 </div>
@@ -191,9 +191,9 @@ function Header() {
                                     <Image width={45} height={45} src="/assets/img/nav/smart-contact.png" alt="" />
                                   </div>
                                   <div className="multi-text">
-                                    <p className="nav-title">
+                                    <h4 className="nav-title">
                                       Smart Contract Development
-                                    </p>
+                                    </h4>
                                     <p>Elevate Transactions, Maximize Security </p>
                                   </div>
                                 </div>
@@ -207,6 +207,7 @@ function Header() {
                     <Navlink
                       href="/blog"
                       text="Blog"
+                      
                       _toggleSidebar={_toggleSidebar}
                     />
                     <Navlink

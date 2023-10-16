@@ -14,7 +14,6 @@ import {
   LinkedinShareButton,
   TwitterShareButton,
   TelegramShareButton,
-  TelegramIcon,
 } from "react-share";
 import Image from "next/image";
 
@@ -48,9 +47,7 @@ export async function getStaticProps({ params }) {
 }
 
 export default function BlogDetails({ blog }) {
-  const [scroll, setScroll] = useState(0);
   const router = useRouter();
-
   console.log("blog", blog);
 
   if (router.isFallback) {

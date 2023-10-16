@@ -42,16 +42,16 @@ const data = [
   {
     title: "On-site customer balances",
     span: "R1",
-    des: "Enable your customers to buy more, one-click fast checkout by using site balance.",
+    des: "Enhance your customer's shopping experience with one-click checkout, made even easier by utilizing their site balance.",
   },
   {
     title: "Reward your customers",
     span: "R2",
-    des: "Customize rules to gift customers on-site balances, products, and more for completing tasks",
+    des: "Personalize rules to offer on-site balances, products, and other rewards for task completion.",
   },
   {
     title: "On-site customer balances",
     span: "R3",
-    des: "Enable your customers to buy more, one-click fast checkout by using site balance.",
+    des: "Streamline one-click checkout for more efficient shopping",
   },
 ];

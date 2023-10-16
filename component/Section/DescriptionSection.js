@@ -36,6 +36,8 @@ const DescriptionSection = ({ data }) => {
                     <div className={styles.about_content_inner} key={i}>
                       <h1>Description</h1>
                       <p>{item.content}</p>
+                      <br />
+                      <p>{item.content1}</p>
                     </div>
                   );
                 })}

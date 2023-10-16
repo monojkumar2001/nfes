@@ -2,15 +2,11 @@ import React, { useEffect, useState } from "react";
 import AppLayout from "../../component/Layout/Layout";
 import Head from "next/head";
 import Link from "next/link";
-import OfferA from "../inner/OfferA";
-import { Blocks } from "react-loader-spinner";
 import axios from "axios";
-import { fontSize } from "@mui/system";
 import styles from "../../styles/pages/BlogPage/BlogPage.module.css";
+import Loading from "../../component/Loading/Loading";
 
 function Blog() {
-  // const [error, setError] = useState(null);
-  // const [isLoaded, setIsLoaded] = useState(false);
   const [loading, setLoading] = useState(true);
   const [posts, setPosts] = useState([]);
 
@@ -20,30 +16,12 @@ function Blog() {
       .then((res) => setPosts(res.data));
     setLoading(false);
 
-    // fetch("https://api.nftconstructer.com/api/blog")
-    //   .then((res) => res.json())
-    //   .then(
-    //     (result) => {
-    //       setIsLoaded(true);
-    //       setPosts(result);
-    //     },
-    //     (error) => {
-    //       setIsLoaded(true);
-    //       setError(error);
-    //     }
-    //   );
+    
   }, []);
 
   if (loading) {
     return (
-      <Blocks
-        visible={true}
-        height="80"
-        width="80"
-        ariaLabel="blocks-loading"
-        wrapperStyle={{}}
-        wrapperClass="blocks-wrapper"
-      />
+      <Loading/>
     );
   }
 
@@ -110,14 +88,7 @@ function Blog() {
 
           <div className={styles.blog_container}>
             {posts.length == 0 ? (
-              <Blocks
-                visible={true}
-                height="80"
-                width="80"
-                ariaLabel="blocks-loading"
-                wrapperStyle={{}}
-                wrapperClass="blocks-wrapper"
-              />
+              <Loading/>
             ) : (
               posts.map((post, index) => (
                 <Link href={`/blog/${post.slug}`} key={index}>

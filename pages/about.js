@@ -73,7 +73,7 @@ function About() {
         <div className="cpt-6">
           <ServiceCardItem
             data={AboutServiceData}
-            title={" We’re Like your cheif growth officer"}
+            title={" We’re like your cheif growth officer"}
             description={``}
             alt={'about'}
             id={'about'}

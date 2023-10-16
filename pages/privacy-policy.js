@@ -108,7 +108,7 @@ function privacyPolicy() {
                 the age of 18.
               </p>
               <br />
-              <h3 className="pp-sm-title">2. INTELLECTUAL PROPERTY RIGHTS</h3>
+              <h2 className="pp-title">2. INTELLECTUAL PROPERTY RIGHTS</h2>
               <p className="urbanist-black-16">
                 Unless otherwise stated, the Site is our property. All source
                 code, databases, functionality, software, website designs,
@@ -137,7 +137,7 @@ function privacyPolicy() {
                 explicitly granted to you.
               </p>
               <br />
-              <h3 className="pp-sm-title">3. USER REPRESENTATIONS</h3>
+              <h2 className="pp-title">3. USER REPRESENTATIONS</h2>
               <p className="urbanist-black-16">
                 By using the Site, you assure that the following details are
                 true, accurate, current, and complete: (1) all registration
@@ -155,7 +155,7 @@ function privacyPolicy() {
                 inaccurate, out-of-date, or incomplete (or any portion thereof).
               </p>
               <br />
-              <h3 className="pp-sm-title">4. USER REGISTRATION</h3>
+              <h2 className="pp-title">4. USER REGISTRATION</h2>
               <p className="urbanist-black-16">
                 It's possible that the Site will ask you to register. You
                 acknowledge that all use of your account and password will be
@@ -165,7 +165,7 @@ function privacyPolicy() {
                 the right to remove, reclaim, or change it.
               </p>
               <br />
-              <h3 className="pp-sm-title">5. FEES AND PAYMENT</h3>
+              <h2 className="pp-title">5. FEES AND PAYMENT</h2>
               <p className="urbanist-black-16">
                 We accept the following forms of payment: <br /> Discover <br />{" "}
                 - Card Payment <br /> - Crypto payment
@@ -195,15 +195,17 @@ function privacyPolicy() {
               </p>
               <br />
 
-              <h3 className="pp-sm-title">6. CANCELLATION</h3>
+              <h2 className="pp-title">6. CANCELLATION</h2>
               <p className="urbanist-black-16">
                 With the contact details listed below, you can contact us at any
                 moment to cancel your subscription. When the current paid
                 current contract expires, your cancellation will become
-                effective. Please send us an email at
+                effective. Please send us an email at {" "}
                 <a href="mailto:support@NFTCONSTRUCTER.com">
                   support@NFTCONSTRUCTER.com
+                  {" "}
                 </a>
+                {" "}
                 if you are dissatisfied with our services.
               </p>
                   <br/>
