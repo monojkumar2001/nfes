@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import Typed from "react-typed";
 import Image from "next/image";
-import Link from "next/link";
 import Styles from "../../styles/pages/PorfolioPage/PortfolioSingleHero.module.css";
 const PortfolioSingleHero = () => {
   const imageUrls = [

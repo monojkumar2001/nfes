@@ -65,7 +65,7 @@ function About() {
 
         {/* <!-- ================ Solving Problem Services start ================ --> */}
         <SolvingProblem />
-        {/* <SolvingProblem/> */}
+
         <div className="cpt-7">
           <Featured alt={'about'} />
         </div>

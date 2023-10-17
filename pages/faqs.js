@@ -4,6 +4,7 @@ import Head from "next/head";
 import Faq from "react-faq-component";
 import Styles from "../styles/pages/HomePage/HomeFaq.module.css";
 import ContactBtn from "../component/Section/ContactBtn";
+
 function FaqPage() {
   const data = {
     rows: [
@@ -112,7 +113,8 @@ function FaqPage() {
         <link rel="icon" type="image" href="/favicon.png"></link>
       </Head>
 
-      <div className={`${Styles.faqs_section_page} cpb-6  cpt-7`}>
+      <div className={`${Styles.faqs_section_page} cpb-6  cpt-7`}    data-aos="fade-up"
+              data-aos-duration="1500">
         <div className={Styles.yellow_filter}></div>
         <div className={Styles.green_filter}></div>
         <div className="container">

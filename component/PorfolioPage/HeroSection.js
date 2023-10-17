@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Typed from "react-typed";
 import Image from "next/image";
 import Link from "next/link";
 import Styles from '../../styles/pages/PorfolioPage/HeroSection.module.css'
@@ -23,19 +22,12 @@ const HeroSection = () => {
       <section className={Styles.portfolio}>
         <div className="container">
           <div className={Styles.portfolio_wrapper}>
-            <div className={Styles.portfolio_left}>
+            <div className={Styles.portfolio_left}    data-aos="fade-up"
+              data-aos-duration="1500">
               <h1>
               Here are some of our  Recent <br />
                 <span>
-                {/* <Typed
-                  strings={[
-                    `PROJECTS`
-                  ]}
-                  typeSpeed={150}
-                  backSpeed={150}
-                  loop
-                >
-                </Typed> */}
+                PROJECTS
                 </span>
               </h1>
               <p>
@@ -48,7 +40,8 @@ const HeroSection = () => {
                 </Link>
               </div>
             </div>
-            <div className={Styles.portfolio_right}>
+            <div className={Styles.portfolio_right}    data-aos="fade-up"
+              data-aos-duration="1500">
             <div className={Styles.portfolio_imgs}>
                <Image
                 width={505}

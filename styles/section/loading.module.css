@@ -38,3 +38,24 @@ height: 50vh;
     }
   }
   
+  @media screen and (max-width: 768px) {
+
+    .spinner {
+      position: absolute;
+      left:40%;
+      top: 50%;
+      transform: translate(-50% -30%);
+      display: flex;
+    place-content: center;
+      place-items: center;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: conic-gradient(
+        from 180deg at 50% 50%,
+        #fff 0deg,
+        #9D32FA 360deg
+      );
+      animation: spin 2s infinite linear;
+    }
+  }

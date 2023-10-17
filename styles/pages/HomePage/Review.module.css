@@ -29,8 +29,8 @@
   background-color: var(--white-color);
   text-align: center;
   z-index: 111;
-  height: 330px;
-  padding: 60px 20px 20px 40px;
+  height: 340px;
+  padding: 50px 20px 20px 20px;
   position: relative;
 }
 .review_icon {
@@ -62,8 +62,8 @@ font-size: 20px;
 font-weight: 700;
 }
 .review_dis{
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 .review_profile{
   display: flex;
@@ -107,8 +107,13 @@ font-weight: 700;
   .yellow_filter{
     display: none;
   }
-}
 
+}
+@media screen and (max-width: 680px) {
+  .client_review_slider{
+    margin: 7px;
+  }
+}
 @media screen and (max-width: 576px) {
   .chainup_title h2 {
     font-size: 30px;
@@ -119,8 +124,9 @@ font-weight: 700;
     padding: 20px 20px;
   }
   .client_review_slider{
-    margin: 5px;
-    height: 400px;
+    margin: 3px;
+    box-shadow: #952ef6 2px 2px 0px 1px, #5d6aef 0px 0px 0px 3px;
+    height: 450px;
   }
 }
 

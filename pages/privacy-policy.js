@@ -46,7 +46,7 @@ function privacyPolicy() {
           <div className="yellow_filter"></div>
           <div className="green_filter"></div>
           <div className="container">
-            <div className="section-title">
+            <div className="section-title ">
               <p className="sm-title">Privacy Policy </p>
               <h2 className="sec-title">Privacy Policy </h2>
               <p className="sec-des">

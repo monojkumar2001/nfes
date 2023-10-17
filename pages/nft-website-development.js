@@ -19,6 +19,7 @@ import { NftDevelopmentDescriptionData } from "/Data/DescriptionData/Description
 import { NftDevelopmnetBenifitsData } from "/Data/BenifitsItemData/BenifitsItemData";
 import NftDevelopmentTechStack from "../component/Section/NftDevelopmentTechStack";
 import SaveTime from "../component/Section/SaveTime";
+
 function NFTWebsiteDevelopmentPage() {
   return (
     <>
@@ -130,6 +131,7 @@ function NFTWebsiteDevelopmentPage() {
         {/* =====================top project===================== */}
         <TopProject alt="nft website development"/>
 
+        {/* <WorkPlace/> */}
 
         {/* =====================happy clients======================= */}
         <Review alt="nft website development" />
